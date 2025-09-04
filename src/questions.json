@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital city of India?",
+    "options": ["Mumbai", "Jaipur", "New Delhi", "Kolkata"],
+    "correct": "New Delhi"
+  },
+  {
+    "id": 2,
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "correct": "Mars"
+  },
+  {
+    "id": 3,
+    "question": "Who developed the theory of relativity?",
+    "options": ["Isaac Newton", "Albert Einstein", "Galileo Galilei", "Nikola Tesla"],
+    "correct": "Albert Einstein"
+  },
+  {
+    "id": 4,
+    "question": "Which is the largest mammal in the world?",
+    "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "correct": "Blue Whale"
+  },
+  {
+    "id": 5,
+    "question": "What is the chemical symbol for Gold?",
+    "options": ["Au", "Ag", "Pb", "Pt"],
+    "correct": "Au"
+  },
+  {
+    "id": 6,
+    "question": "Which gas do plants absorb during photosynthesis?",
+    "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+    "correct": "Carbon Dioxide"
+  },
+  {
+    "id": 7,
+    "question": "In which year did World War II end?",
+    "options": ["1942", "1945", "1948", "1950"],
+    "correct": "1945"
+  },
+  {
+    "id": 8,
+    "question": "Who painted the Mona Lisa?",
+    "options": ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Claude Monet"],
+    "correct": "Leonardo da Vinci"
+  },
+  {
+    "id": 9,
+    "question": "Which is the smallest prime number?",
+    "options": ["0", "1", "2", "3"],
+    "correct": "2"
+  },
+  {
+    "id": 10,
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Ganga", "Yangtze"],
+    "correct": "Nile"
+  }
+]
