@@ -17,7 +17,7 @@ const Quiz = () => {
     const location = useLocation();
     const difficulty = location.state?.difficulty || "easy";
 
-    // ✅ Function to format questions from The Trivia API
+    //  Function to format questions from The Trivia API
     const formatQuestions = (data) => {
         return data.map((q, index) => {
             const options = [...q.incorrectAnswers, q.correctAnswer].sort(
@@ -32,7 +32,7 @@ const Quiz = () => {
         });
     };
 
-    // ✅ Next Question / Submit logic wrapped in useCallback
+    //  Next Question / Submit logic wrapped in useCallback
     // This is good practice to prevent `handleNext` from being recreated on every render
     const handleNext = useCallback(() => {
         const currentQ = questions[currentIndex];
@@ -63,7 +63,7 @@ const Quiz = () => {
         }
     }, [currentIndex, questions, selected, score, results, navigate]);
 
-    // ✅ Load Questions
+    // Load Questions
     useEffect(() => {
         const fetchQuestions = async () => {
             try {
@@ -97,7 +97,7 @@ const Quiz = () => {
         fetchQuestions();
     }, [difficulty]);
 
-    // ✅ Timer
+    //  Timer
     useEffect(() => {
         if (timeLeft > 0) {
             const timer = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
@@ -105,7 +105,7 @@ const Quiz = () => {
         }
     }, [timeLeft]);
 
-    // ✅ Auto-advance on timeout
+    //  Auto-advance on timeout
     useEffect(() => {
         if (timeLeft === 0) {
             handleNext();
